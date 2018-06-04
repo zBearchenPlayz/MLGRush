@@ -676,11 +676,11 @@ class MLGRush extends PluginBase implements Listener {
     }
 }
 
-class MLGRushTask extends PluginTask {
+class MLGTask extends PluginTask {
     public $cfg;
     public $prefix = '§1M§fL§4G§fRush §8| §7';
 
- public function construct($plugin)
+ public function construct( MLGTask$plugin)
 {
      $this->plugin = $plugin;
      parent::construct($plugin);
